@@ -10,7 +10,10 @@ namespace ConsoleApplication2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Random Stuffsies");
+            Console.WriteLine("Write something: ");
+            string input = Convert.ToString(Console.ReadLine());
+            Console.WriteLine($"You Wrote: {input}");
+
             Console.ReadLine();
         }
     }
